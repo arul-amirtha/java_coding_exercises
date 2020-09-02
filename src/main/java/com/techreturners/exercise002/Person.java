@@ -6,24 +6,27 @@ public class Person {
     private String city;
     private int age;
 
-    public Person(String firstName, String lastName, String city, int age){
-        this.firstName=firstName;
-        this.lastName=lastName;
-        this.city=city;
-        this.age=age;
+    public Person(String firstName, String lastName, String city, int age) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.city = city;
+        this.age = age;
 
     }
 
-    public String getFirstName(){
+    public String getFirstName() {
         return firstName;
     }
-    public String getLastName(){
+
+    public String getLastName() {
         return lastName;
     }
-    public String getCity(){
+
+    public String getCity() {
         return city;
     }
-    public int getAge(){
+
+    public int getAge() {
         return age;
     }
 
