@@ -4,17 +4,11 @@ public class Exercise002 {
 
     public boolean isFromManchester(Person person) {
 
-        if (person.getCity().toUpperCase().equals("MANCHESTER")) {
-            return true;
-        }
-        return false;
+        return person.getCity().toUpperCase().equals("MANCHESTER");
     }
 
     public boolean canWatchFilm(Person person, int ageLimit) {
-        if (person.getAge() >= ageLimit) {
-            return true;
-        }
-        return false;
+        return person.getAge() >= ageLimit;
     }
 
 }
